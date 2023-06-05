@@ -1,0 +1,74 @@
+D:\Anaconda\envs\pytorch\python.exe "D:/PYTORCH for AI & ML/pythonProject1/main.py"
+tensor(2.5972, grad_fn=<AddBackward0>)
+tensor([[ 1.8397, -1.7842,  0.9630,  0.0808, -1.3028, -1.8659, -1.0059,  2.5085,
+          0.3311, -0.6970],
+        [-1.2689, -0.9271,  0.3592,  0.0668, -0.2068,  1.0878, -0.8742,  0.4518,
+         -0.1186, -0.1112],
+        [ 0.5663, -0.3845, -0.6434, -1.2518, -0.8430, -0.2740,  0.0764, -1.9029,
+          1.3275,  1.1584]], requires_grad=True)
+tensor([[-1.3846, -5.0085, -2.2613, -3.1435, -4.5271, -5.0902, -4.2302, -0.7158,
+         -2.8932, -3.9213],
+        [-3.6420, -3.3002, -2.0139, -2.3063, -2.5799, -1.2853, -3.2473, -1.9212,
+         -2.4917, -2.4843],
+        [-1.9697, -2.9206, -3.1795, -3.7879, -3.3790, -2.8100, -2.4596, -4.4390,
+         -1.2086, -1.3776]], grad_fn=<LogSoftmaxBackward0>)
+tensor([[ 1.8502, -2.1518,  0.7316,  1.4593, -0.9089,  0.7464, -2.6041,  1.7664,
+          1.3741, -0.3121],
+        [ 0.1929, -0.6677,  1.3671, -0.5160,  0.4764, -0.3593, -0.0845,  1.0963,
+          0.4213, -0.0099],
+        [ 1.1103, -0.8679,  1.2380,  1.0461, -0.7143,  0.5737, -0.6034,  0.1131,
+          0.1287,  0.2818]])
+LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+Epochs 1/50, Train Loss: 8.5482, \ Test Loss: 4.9800, Duration: 0:00:06.229244
+Epochs 2/50, Train Loss: 4.3731, \ Test Loss: 4.0173, Duration: 0:00:02.344202
+Epochs 3/50, Train Loss: 3.7398, \ Test Loss: 3.6614, Duration: 0:00:02.678338
+Epochs 4/50, Train Loss: 3.4412, \ Test Loss: 3.4746, Duration: 0:00:02.520801
+Epochs 5/50, Train Loss: 3.2596, \ Test Loss: 3.3601, Duration: 0:00:01.946043
+Epochs 6/50, Train Loss: 3.1340, \ Test Loss: 3.2836, Duration: 0:00:02.036665
+Epochs 7/50, Train Loss: 3.0403, \ Test Loss: 3.2298, Duration: 0:00:02.560640
+Epochs 8/50, Train Loss: 2.9667, \ Test Loss: 3.1905, Duration: 0:00:02.546554
+Epochs 9/50, Train Loss: 2.9066, \ Test Loss: 3.1611, Duration: 0:00:02.133305
+Epochs 10/50, Train Loss: 2.8561, \ Test Loss: 3.1387, Duration: 0:00:01.969341
+Epochs 11/50, Train Loss: 2.8129, \ Test Loss: 3.1215, Duration: 0:00:02.000913
+Epochs 12/50, Train Loss: 2.7752, \ Test Loss: 3.1082, Duration: 0:00:02.055870
+Epochs 13/50, Train Loss: 2.7420, \ Test Loss: 3.0979, Duration: 0:00:01.789334
+Epochs 14/50, Train Loss: 2.7122, \ Test Loss: 3.0899, Duration: 0:00:01.740124
+Epochs 15/50, Train Loss: 2.6854, \ Test Loss: 3.0838, Duration: 0:00:01.827071
+Epochs 16/50, Train Loss: 2.6610, \ Test Loss: 3.0793, Duration: 0:00:01.816832
+Epochs 17/50, Train Loss: 2.6387, \ Test Loss: 3.0759, Duration: 0:00:01.760185
+Epochs 18/50, Train Loss: 2.6182, \ Test Loss: 3.0735, Duration: 0:00:01.728476
+Epochs 19/50, Train Loss: 2.5991, \ Test Loss: 3.0720, Duration: 0:00:01.748368
+Epochs 20/50, Train Loss: 2.5814, \ Test Loss: 3.0712, Duration: 0:00:02.121417
+Epochs 21/50, Train Loss: 2.5649, \ Test Loss: 3.0710, Duration: 0:00:03.012318
+Epochs 22/50, Train Loss: 2.5494, \ Test Loss: 3.0712, Duration: 0:00:01.950080
+Epochs 23/50, Train Loss: 2.5349, \ Test Loss: 3.0719, Duration: 0:00:02.028671
+Epochs 24/50, Train Loss: 2.5211, \ Test Loss: 3.0730, Duration: 0:00:02.552813
+Epochs 25/50, Train Loss: 2.5081, \ Test Loss: 3.0744, Duration: 0:00:02.013779
+Epochs 26/50, Train Loss: 2.4958, \ Test Loss: 3.0760, Duration: 0:00:01.958483
+Epochs 27/50, Train Loss: 2.4841, \ Test Loss: 3.0779, Duration: 0:00:02.009845
+Epochs 28/50, Train Loss: 2.4729, \ Test Loss: 3.0800, Duration: 0:00:02.309004
+Epochs 29/50, Train Loss: 2.4623, \ Test Loss: 3.0823, Duration: 0:00:02.119954
+Epochs 30/50, Train Loss: 2.4521, \ Test Loss: 3.0848, Duration: 0:00:01.861555
+Epochs 31/50, Train Loss: 2.4424, \ Test Loss: 3.0874, Duration: 0:00:02.305099
+Epochs 32/50, Train Loss: 2.4330, \ Test Loss: 3.0901, Duration: 0:00:01.994118
+Epochs 33/50, Train Loss: 2.4240, \ Test Loss: 3.0929, Duration: 0:00:01.785471
+Epochs 34/50, Train Loss: 2.4154, \ Test Loss: 3.0958, Duration: 0:00:01.977573
+Epochs 35/50, Train Loss: 2.4071, \ Test Loss: 3.0988, Duration: 0:00:01.931170
+Epochs 36/50, Train Loss: 2.3991, \ Test Loss: 3.1019, Duration: 0:00:02.216331
+Epochs 37/50, Train Loss: 2.3913, \ Test Loss: 3.1051, Duration: 0:00:01.832195
+Epochs 38/50, Train Loss: 2.3838, \ Test Loss: 3.1083, Duration: 0:00:01.775959
+Epochs 39/50, Train Loss: 2.3766, \ Test Loss: 3.1116, Duration: 0:00:01.726176
+Epochs 40/50, Train Loss: 2.3696, \ Test Loss: 3.1149, Duration: 0:00:01.723085
+Epochs 41/50, Train Loss: 2.3628, \ Test Loss: 3.1183, Duration: 0:00:01.842874
+Epochs 42/50, Train Loss: 2.3562, \ Test Loss: 3.1217, Duration: 0:00:01.776524
+Epochs 43/50, Train Loss: 2.3498, \ Test Loss: 3.1252, Duration: 0:00:01.736506
+Epochs 44/50, Train Loss: 2.3436, \ Test Loss: 3.1287, Duration: 0:00:01.727149
+Epochs 45/50, Train Loss: 2.3376, \ Test Loss: 3.1322, Duration: 0:00:01.798096
+Epochs 46/50, Train Loss: 2.3317, \ Test Loss: 3.1357, Duration: 0:00:01.785076
+Epochs 47/50, Train Loss: 2.3260, \ Test Loss: 3.1393, Duration: 0:00:01.772702
+Epochs 48/50, Train Loss: 2.3204, \ Test Loss: 3.1429, Duration: 0:00:01.721005
+Epochs 49/50, Train Loss: 2.3150, \ Test Loss: 3.1465, Duration: 0:00:01.728526
+Epochs 50/50, Train Loss: 2.3097, \ Test Loss: 3.1501, Duration: 0:00:01.730801
+Training Accuracy: 0.9421428571428572, Testing Accuracy: 0.9208333333333333
